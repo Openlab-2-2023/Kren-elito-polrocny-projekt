@@ -83,15 +83,24 @@ h2{
 .pll{
   position: fixed;
 margin-right: 60vh;
-margin-top: 22vh;
+margin-top: 24vh;
 
 }
-.art1{
-  position: relative;
-  left: 80vh;
-  bottom: 50vh;
-  border-style: solid;
-  border-color: black;
+
+
   
+  .flex-container > div {
+    background-color: rgba(233, 0, 82, 0.4);
+    width: 50%;
+    height: 90%;
+    margin: 5px;
+    position: absolute;
+    left: 90vh;
+    bottom: 5%;
+    line-height: 75px;
+    font-size: 30px;
+    padding-right: 80vh;
+    padding-bottom: 50%;
 
-}
+
+  }
