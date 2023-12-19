@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <script src="https://kit.fontawesome.com/6d89e3ce5b.js" crossorigin="anonymous"></script>
+        <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+      rel="stylesheet"
+      
+
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Web Design Mastery | WDM&Co</title>
+  </head>
+  <body>     
+ 
+    <nav>
+      <div class="nav__logo">Mk.Co.</div>
+      <ul class="nav__links">
+        <li class="link"><a href="index.html">Domov</a></li>
+        <li class="link"><a href="rezervacia.html">Rezervácia</a></li>
+        <li class="link"><a href="o nas.html">O nás</a></li>
+        <li class="link"><a href="kontaktuj.html">Kontaktuj nás</a></li>
+      </ul>
+    </nav>
+    <header class="section__container header__container">
+      <div class="header__image__container">
+        <div class="header__content">
+          <h1></h1>
+          <p></p>
+        </div>
+
+        <section class="book">
+          <form action="reservation.php" method="post">
+            <div class="elem-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="visitor_name" placeholder="John Doe" pattern=[A-Z\sa-z]{3,20} required>
+            </div>
+            <div class="elem-group">
+              <label for="email">Your E-mail</label>
+              <input type="email" id="email" name="visitor_email" placeholder="john.doe@email.com" required>
+            </div>
+            <div class="elem-group">
+              <label for="phone">Your Phone</label>
+              <input type="tel" id="phone" name="visitor_phone" placeholder="498-348-3872" pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
+            </div>
+            <hr>
+            <div class="elem-group inlined">
+              <label for="adult">Adults</label>
+              <input type="number" id="adult" name="total_adults" placeholder="2" min="1" required>
+            </div>
+            <div class="elem-group inlined">
+              <label for="child">Children</label>
+              <input type="number" id="child" name="total_children" placeholder="2" min="0" required>
+            </div>
+            <div class="elem-group inlined">
+              <label for="checkin-date">Check-in Date</label>
+              <input type="date" id="checkin-date" name="checkin" required>
+            </div>
+            <div class="elem-group inlined">
+              <label for="checkout-date">Check-out Date</label>
+              <input type="date" id="checkout-date" name="checkout" required>
+            </div>
+            <div class="elem-group">
+              <label for="room-selection">Select Room Preference</label>
+              <select id="room-selection" name="room_preference" required>
+                  <option value="">Choose a Room from the List</option>
+                  <option value="connecting">Connecting</option>
+                  <option value="adjoining">Adjoining</option>
+                  <option value="adjacent">Adjacent</option>
+              </select>
+            </div>
+            <hr>
+            <div class="elem-group">
+              <label for="message">Anything Else?</label>
+              <textarea id="message" name="visitor_message" placeholder="Tell us anything else that might be important." required></textarea>
+            </div>
+            <input type="button" href="inde2.html">
+          </form>
+          </div>
+
+        </section>
+  
+
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <h3>WDM&Co</h3>
+          <p>
+            WDM&Co is a premier hotel booking website that offers a seamless and
+            convenient way to find and book accommodations worldwide.
+          </p>
+          <p>
+            With a user-friendly interface and a vast selection of hotels,
+            WDM&Co aims to provide a stress-free experience for travelers
+            seeking the perfect stay.
+          </p>
+        </div>
+        <div class="footer__col">
+          <h4>Company</h4>
+          <p>About Us</p>
+          <p>Our Team</p>
+          <p>Blog</p>
+          <p>Book</p>
+          <p>Contact Us</p>
+        </div>
+        <div class="footer__col">
+          <h4>Legal</h4>
+          <p>FAQs</p>
+          <p>Terms & Conditions</p>
+          <p>Privacy Policy</p>
+        </div>
+        <div class="footer__col">
+          <h4>Resources</h4>
+          <p>Social Media</p>
+          <p>Help Center</p>
+          <p>Partnerships</p>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2023 Mk.Coorporation. All rights reserved.
+      </div>
+    </footer>
+  </body>
+</html>

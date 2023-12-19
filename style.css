@@ -193,29 +193,29 @@ color: black;
     height: 3vh;
     width: 5vh;
     left: 35%;
-    top: 4vh;
+    top: 6vh;
     
 }
 .honkkong{
     position: relative;
     height: 3vh;
     width: 5vh;
-    top: 8vh;
+    top: 6vh;
     left: 25%;
     
 }
 .uae1{
 position: relative;
-height: 3vh;
-width: 5vh;
-top: 3.5vh;
+height: 4vh;
+width: 4vh;
+top: 6vh;
 left: 20%;
 }
 .uae2{
     position: relative;
-    height: 3vh;
-    width: 5vh;
-    top: 3vh;
+    height: 6vh;
+    width: 4vh;
+    top: 6vh;
 
     left: 20%;
 }
@@ -280,21 +280,41 @@ left: 20%;
 
 .client__card {
   padding: 2rem;
-  background-color: var(--white);
+  background-color: #0f30ec;
   border-radius: 1rem;
-  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.8);
+  text-align: center;
+
 }
 
 .client__card img {
   max-width: 80px;
   margin: auto;
   margin-bottom: 1rem;
-  border-radius: 100%;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #dcee1f;
 }
+.client__card h1{
+  text-align: center;
+  font-size: medium;
+  font-weight: 800;
 
+}
 .client__card p {
   text-align: center;
   color: var(--text-dark);
+}
+
+
+.fa-star{
+color: yellow;
+justify-content: space-between ;
+align-items: center;
+border-style: hidden;
+border-color: black;
+
+
 }
 
 .reward__container {
@@ -442,4 +462,62 @@ left: 20%;
   .footer__container {
     gap: 2rem;
   }
+}
+
+
+div.elem-group {
+  margin: 20px 0;
+}
+
+div.elem-group.inlined {
+  width: 49%;
+  display: inline-block;
+  float: left;
+  margin-left: 1%;
+}
+
+label {
+  display: block;
+  font-family: 'Nanum Gothic';
+  padding-bottom: 10px;
+  font-size: 1.25em;
+}
+
+input, select, textarea {
+  border-radius: 2px;
+  border: 2px solid #777;
+  box-sizing: border-box;
+  font-size: 1.25em;
+  font-family: 'Nanum Gothic';
+  width: 100%;
+  padding: 10px;
+  
+}
+
+div.elem-group.inlined input {
+  width: 95%;
+  display: inline-block;
+}
+
+textarea {
+  height: 250px;
+}
+
+hr {
+  border: 1px dotted #ccc;
+}
+
+button {
+  height: 50px;
+  background: orange;
+  border: none;
+  color: white;
+  font-size: 1.25em;
+  font-family: 'Nanum Gothic';
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  border: 2px solid black;
 }
