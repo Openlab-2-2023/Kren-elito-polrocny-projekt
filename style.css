@@ -509,6 +509,10 @@ hr {
 
 button {
   height: 50px;
+  position: relative;
+  bottom: 15px;
+  width: 100%;
+  justify-content: space-around;
   background: orange;
   border: none;
   color: white;

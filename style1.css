@@ -5,7 +5,7 @@
             box-sizing: border-box;
 }
 
-/* Initial menu */
+
 .menu {
      background-color: #98e1eb;
     /* IE9, iOS 3.2+ */
@@ -203,8 +203,8 @@ input:focus ~ .after {
 
 button {
   position: relative;
-  width: 200px;
-  height: 34px;
+  width: 100%;
+  height: 100%;
   font-size: 20px;
   font-family: system-ui, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -214,22 +214,14 @@ button {
   background: white;
   border: none;
   border-radius: 15px;
-  background: -webkit-gradient(linear, left top, right top, color-stop(50%, white), color-stop(50%, transparent));
-  background: -webkit-linear-gradient(left, white 50%, transparent 50%);
-  background: -o-linear-gradient(left, white 50%, transparent 50%);
-  background: linear-gradient(to right, white 50%, transparent 50%);
-  background-color: RGBA(55, 73, 87, 0.8);
-  background-size: 200% 100%;
-  background-position: 100% 0;
-  -webkit-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+
 }
 
 button:before {
   position: absolute;
   font-family: system-ui, FontAwesome, Helvetica, Arial, sans-serif;;
   font-size: 20px;
+  
   content: "\f00c";
   letter-spacing: 3px;
   -webkit-box-pack: center;
