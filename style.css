@@ -507,21 +507,111 @@ hr {
   border: 1px dotted #ccc;
 }
 
-button {
-  height: 50px;
-  position: relative;
-  bottom: 15px;
-  width: 100%;
-  justify-content: space-around;
-  background: orange;
-  border: none;
-  color: white;
-  font-size: 1.25em;
-  font-family: 'Nanum Gothic';
-  border-radius: 4px;
-  cursor: pointer;
-}
+
 
 button:hover {
   border: 2px solid black;
+}
+
+.container {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    padding top: 10vh;
+    height: 100vh;
+    
+    align-items: center;
+    justify-content: center;
+position: relative;
+bottom: 17vh;
+
+
+    
+  }
+  .container > div {
+    background-color: #f1f1f1;
+box-shadow: 10px 5px rgba(0, 0, 0, 0.1);
+text-align: center;
+
+    font-size: 30px;
+
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 80%;
+
+   
+    }
+h3{
+
+  font-family: 'Abril Fatface', serif;
+text-align: center;
+color: blue;
+font-weight: 800;
+font-size: larger;
+}
+.nvmm{
+padding: 15px 10px 10px 20px;
+overflow: visible;
+font-size: smaller;
+color: rgb(0, 0, 0);
+font-family:  'Heebo', sans-serif;
+color: #0f30ec;
+}
+.wlcm{
+
+font-weight: 100;
+font-size: smaller;
+color: black;
+font-family: 'Heebo', sans-serif;
+
+padding:4vh 1vh 5vh 2vh ;
+}
+.fa-sun{
+justify-content: space-between;
+align-items: center;
+position: initial;
+color: rgb(211, 211, 18);
+
+
+
+
+
+}
+.nadpis{
+
+position: relative;
+bottom: 15vh;
+left: 47vh;
+font-weight: bold;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: x-large;
+color: brown;
+
+
+}
+.ktosme{
+  position: relative;
+bottom: 10vh;
+left: 56vh;
+font-weight: 800;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: x-large;
+color: rgb(236, 97, 17);
+}
+.kontakt{
+  display: flex;
+
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  padding top: 10vh;
+  height: 100vh;
+  
+  align-items: center;
+  justify-content: center;
+position: relative;
+bottom: 17vh;
+
 }
