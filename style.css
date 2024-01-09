@@ -28,6 +28,24 @@
   font-weight: 600;
   color: var(--text-dark);
   text-align: center;
+  
+}
+p{
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: inherit;
+  animation-direction: alternate;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 a {
@@ -230,12 +248,14 @@ left: 20%;
 }
 .booking__container .btn:hover {
   background-color: var(--primary-color-dark);
+  
 }
 
 .popular__grid {
   margin-top: 4rem;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+display: flex;
+flex-wrap: wrap;
+
   gap: 2rem;
 }
 
@@ -243,6 +263,9 @@ left: 20%;
   overflow: hidden;
   border-radius: 1rem;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.6);
+  background-color: var(--white);
+  height: 42vh;
+  width: 36vh;
 }
 
 .popular__content {
@@ -251,10 +274,11 @@ left: 20%;
 
 .popular__card__header {
   display: flex;
-  align-items: center;
+
   justify-content: space-between;
   gap: 1rem;
   margin-bottom: 0.5rem;
+
 }
 
 .popular__card__header h4 {
@@ -718,3 +742,46 @@ width: 40%;
 fa-solid fa-plane{
 margin-left: 50%;
 }
+.popular__card__header{  font-size: 1.2rem;
+  font-weight: 600;}
+#plaza:hover{
+  transform: translateX(4);
+  transform: translateY(10);
+
+
+}
+#ritz:hover{  transform: scale(1.2);
+  transition: 1s;
+
+
+
+
+
+}
+#peninsula:hover{
+  transform: scale(1.2);
+  transition: 1s;
+
+}
+#atlantis:hover{
+  transform: scale(1.2);
+  transition: 1s;
+}
+#carlton:hover{
+  transform: scale(1.2);
+  transition: 1s;
+
+}
+#plaza:hover{
+  transform: scale(1.2);
+  transition: 1s;
+ 
+}
+#bay:hover{
+  transform: scale(1.2);
+  transition: 1s;
+
+}
+
+
+
