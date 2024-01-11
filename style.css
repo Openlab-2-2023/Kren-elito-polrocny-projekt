@@ -30,12 +30,7 @@
   text-align: center;
   
 }
-p{
-  animation-duration: 3s;
-  animation-name: slidein;
-  animation-iteration-count: inherit;
-  animation-direction: alternate;
-}
+
 @keyframes slidein {
   from {
     margin-left: 100%;
@@ -109,6 +104,12 @@ color: black;
 
 .header__content {
   max-width: 600px;
+position: relative;
+top: 8vh;
+left: 30vh;
+width: 70%;
+height: 50%;
+bottom: 30%;
 
 }
 
@@ -117,11 +118,14 @@ color: black;
   font-size: 3.5rem;
   line-height: 4rem;
   font-weight: 600;
+  text-align: center;
 
 }
 
 .header__content p {
   color: blue;
+  text-align: center;
+  bottom: 30%;
 }
 
 .booking__container {
@@ -781,6 +785,14 @@ margin-left: 50%;
   transform: scale(1.2);
   transition: 1s;
 
+}
+.nadpis{
+
+text-align: center;
+}
+.podpis{
+
+text-align: center;
 }
 
 

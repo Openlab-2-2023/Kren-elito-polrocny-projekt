@@ -1,0 +1,13 @@
+path{
+	transition: fill .1s linear
+}
+path:hover{
+	fill: #565656;
+}
+#france:hover{
+    fill: blue;
+}
+svg{
+    height: 20%;
+    width: 20vh;
+}
